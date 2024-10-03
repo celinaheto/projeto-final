@@ -10,8 +10,8 @@
   <body>
     <header>
       <nav class="nav-bar">
-        <img class="logo" src="./images/logo.pet.jpeg" alt="Logo Pet" width="120">
-        <div class="nav-lado">
+        <img class="nav-logo" src="./images/logo.pet.jpeg" alt="Logo Pet">
+        <div class="nav-menu">
           <span class="nav-titulo">Regia & Tina's Care - Estética Animal</span>
           <ul class="nav-links">
             <li class="nav-links-link"><a href="#servicos">Serviços</a></li>
@@ -24,49 +24,45 @@
       </nav>
     </header>
     <main>
-      <div>
-        <img src="./images/banner-pet.avif" alt="Foto de filhotes cachorros e gatos" width="400" height="200">
+      <div class="sobrenos">
+        <img class="sobrenos-banner" src="./images/banner-pet.avif" alt="Foto de filhotes cachorros e gatos">
         <p id="sobrenos">O Petshop Regia e Tina's Care é especializado em banho e tosa de pets. Somos novos no mercado, porém trazendo inovações com a finalidade de maximizar resultados. Nosso sucesso se deve ao fato de trabalharmos com profissionais altamente qualificados e treinados com  cursos de capacitação de sua área. Nossos profissionais são extremamente dedicados, pois sabem que cliente feliz é cliente satisfeito.</p>
       </div>
       <section id="servicos">
-        <h2>Serviços</h2>
-        <ul>
-          <li>Tosas em Geral</li>
-          <li>Tosas Higiênicas</li>
-          <li>Banho de Ozônio</li>
-          <li>Corte de Unhas</li>
-          <li>Banhos</li>
-          <li>Hidratação</li>
-          <li>Taxi Dog</li>
+        <h2 class="servicos-titulo">Serviços</h2>
+        <ul class="servicos-lista">
+          <li class="servicos-item">Tosas em Geral</li>
+          <li class="servicos-item">Tosas Higiênicas</li>
+          <li class="servicos-item">Banho de Ozônio</li>
+          <li class="servicos-item">Corte de Unhas</li>
+          <li class="servicos-item">Banhos</li>
+          <li class="servicos-item">Hidratação</li>
+          <li class="servicos-item">Taxi Dog</li>
         </ul>
       </section>
       <section id="agenda">
-        <h2>Agende seu horário</h2>
-        <div>
-          <label for="nome">Nome</label>
-          <input type="text" name="nome" id="nome">
-        </div>
-        <div>
-          <label for="tel">Tel.</label>
-          <input type="text" name="tel" id="tel">
-        </div>
-        <div>
-          <label for="email">E-mail</label>
-          <input type="email" name="email" id="email">
-        </div>
-        <div>
-          <button type="submit" placeholder: Enviar>Enviar</button>
-        </div>
+        <div class="agenda-input">  
+          <h2 class="agenda-titulo">Agende seu horário</h2>
+            
+            <label for="nome">Nome</label>
+            <input class="input" type="text" name="nome" id="nome">
+            
+            <label for="tel">Tel.</label>
+            <input class="input" type="text" name="tel" id="tel">
+            
+            <label for="email">E-mail</label>
+            <input class="input" type="email" name="email" id="email">
+            
+            <button class="input-enviar" class="agenda-enviar" type="submit" placeholder: Enviar>Enviar</button>
+          </div>
+          <img class="dog-banheira" src="./images/dog-banheira.jpg" alt="Cachorro na banheira">
       </section>
-      <div>
-        <img src="./images/dog-banheira.jpg" alt="Cachorro na banheira" width="200">
-      </div>
       <div>
         <img src="./images/gato-filhote.avif" alt="" width="200">
       </div>
       <section id="vet">
         <h2>Dra. Gabriella Gesuele</h2>
-        <p>Médica Vetrinária</p>
+        <p>Médica Veterinária</p>
         <p>CRMV-SP 50576</p>
         <a href="https://www.instagram.com/dra.gabriellagesuele?igsh=YnJjbXJwZjdtMHVv" target="_blank">
         <img src="./images/logo-gabi.jpg" alt="Logo Dra. Gabriella" width="200">
