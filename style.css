@@ -8,8 +8,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
-  margin: 10px 30px;
-  color: rgb(41, 40, 40);
+  color: rgb(82, 81, 81);
 }
 
 .nav-bar {
@@ -35,7 +34,7 @@ body {
 .nav-titulo {
   margin-bottom: 20px;
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .nav-links {
@@ -48,7 +47,11 @@ body {
 
 .nav-links-link a {
   text-decoration: none;
-  color: rgb(41, 40, 40);
+  color: rgb(82, 81, 81);
+}
+
+main {
+  background-image: url(./images/SL-011023-55240-20.jpg);
 }
 
 .sobrenos {
@@ -67,6 +70,7 @@ body {
   width: auto;
   text-align: center;
   font-size: 20px;
+  margin: 0px 80px 0px 80px;
 }
 
 h2 {
@@ -92,6 +96,7 @@ h2 {
   justify-content: space-between;
   list-style: none;
   padding-bottom: 20px;
+  margin: 0px 80px 0px 80px;
 }
 
 .servicos-item {
@@ -99,7 +104,11 @@ h2 {
   height: 110px;
   align-content: center;
   border-radius: 50px;
-  background-image: radial-gradient(rgb(245, 170, 194), rgb(255, 255, 255));
+  background-image: radial-gradient(
+    rgb(255, 255, 255),
+    rgb(255, 255, 255),
+    rgb(245, 170, 194)
+  );
 }
 
 #agenda {
@@ -124,6 +133,7 @@ h2 {
   margin: 2px;
   padding: 3px;
   border-radius: 4px;
+  border: 1px solid rgb(82, 81, 81);
 }
 
 .input-enviar {
@@ -131,6 +141,8 @@ h2 {
   padding: 3px;
   margin-top: 10px;
   border-radius: 4px;
+  border: 1px solid rgb(82, 81, 81);
+  color: rgb(82, 81, 81);
 }
 
 .dog-banheira {
@@ -161,12 +173,17 @@ h2 {
   margin-right: 100px;
 }
 
+.logo-gabi {
+  width: 160px;
+  height: 130px;
+}
+
 .contatos {
   background-color: rgb(239, 252, 252);
   height: 60px;
   display: flex;
   justify-content: space-between;
-  padding: 40px;
+  padding: 45px;
 }
 
 #contatos {
@@ -176,14 +193,14 @@ h2 {
 .links-redes {
   display: flex;
   flex-direction: column;
-}
-
-.links-redes a {
-  width: 5px;
+  width: 22px;
+  height: 22px;
+  padding-bottom: 5px;
 }
 
 .dev {
-  background-color: rgb(239, 252, 252);
+  background-color: rgb(226, 248, 248);
   text-align: center;
   color: rgb(82, 81, 81);
+  font-size: 15px;
 }
