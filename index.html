@@ -3,19 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./images/logo.pet.jpeg" type="image/x-icon">
-    <link rel="stylesheet" href="./style.css">
+    <link
+      rel="shortcut icon"
+      href="./images/logo.pet.jpeg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style.css" />
     <title>Projeto Final</title>
   </head>
   <body>
     <header>
       <nav class="nav-bar">
-        <img class="nav-logo" src="./images/logo.pet.jpeg" alt="Logo Pet">
+        <img class="nav-logo" src="./images/logo.pet.jpeg" alt="Logo Pet" />
         <div class="nav-menu">
           <span class="nav-titulo">Regia & Tina's Care - Estética Animal</span>
           <ul class="nav-links">
             <li class="nav-links-link"><a href="#servicos">Serviços</a></li>
-            <li class="nav-links-link"><a href="#agenda">Agende seu horário</a></li>
+            <li class="nav-links-link">
+              <a href="#agenda">Agende seu horário</a>
+            </li>
             <li class="nav-links-link"><a href="#vet">Veterinária</a></li>
             <li class="nav-links-link"><a href="#sobrenos">Sobre Nós</a></li>
             <li class="nav-links-link"><a href="#contatos">Contatos</a></li>
@@ -25,8 +31,19 @@
     </header>
     <main>
       <div class="sobrenos">
-        <img class="sobrenos-banner" src="./images/banner-pet.avif" alt="Foto de filhotes cachorros e gatos">
-        <p id="sobrenos">O Petshop Regia e Tina's Care é especializado em banho e tosa de pets. Somos novos no mercado, porém trazendo inovações com a finalidade de maximizar resultados. Nosso sucesso se deve ao fato de trabalharmos com profissionais altamente qualificados e treinados com  cursos de capacitação de sua área. Nossos profissionais são extremamente dedicados, pois sabem que cliente feliz é cliente satisfeito.</p>
+        <img
+          class="sobrenos-banner"
+          src="./images/banner-pet.avif"
+          alt="Foto de filhotes cachorros e gatos"
+        />
+        <p id="sobrenos">
+          O Petshop Regia e Tina's Care é especializado em banho e tosa de pets.
+          Somos novos no mercado, porém trazendo inovações com a finalidade de
+          maximizar resultados. Nosso sucesso se deve ao fato de trabalharmos
+          com profissionais altamente qualificados e treinados com cursos de
+          capacitação de sua área. Nossos profissionais são extremamente
+          dedicados, pois sabem que cliente feliz é cliente satisfeito.
+        </p>
       </div>
       <section id="servicos">
         <h2 class="servicos-titulo">Serviços</h2>
@@ -41,35 +58,51 @@
         </ul>
       </section>
       <section id="agenda">
-        <div class="agenda-input">  
+        <div class="agenda-input">
           <h2 class="agenda-titulo">Agende seu horário</h2>
-            
-            <label for="nome">Nome</label>
-            <input class="input" type="text" name="nome" id="nome">
-            
-            <label for="tel">Tel.</label>
-            <input class="input" type="text" name="tel" id="tel">
-            
-            <label for="email">E-mail</label>
-            <input class="input" type="email" name="email" id="email">
-            
-            <button class="input-enviar" class="agenda-enviar" type="submit" placeholder: Enviar>Enviar</button>
-          </div>
-          <img class="dog-banheira" src="./images/dog-banheira.jpg" alt="Cachorro na banheira">
+
+          <label for="nome">Nome</label>
+          <input class="input" type="text" name="nome" id="nome" />
+
+          <label for="tel">Tel.</label>
+          <input class="input" type="text" name="tel" id="tel" />
+
+          <label for="email">E-mail</label>
+          <input class="input" type="email" name="email" id="email" />
+
+          <button class="input-enviar" type="submit">Enviar</button>
+        </div>
+        <img
+          class="dog-banheira"
+          src="./images/dog-banheira.jpg"
+          alt="Cachorro na banheira"
+        />
       </section>
       <section class="vet">
-        <div >
-          <img class="gato-filhote" src="./images/gato-filhote.avif" alt="foto gato filhote">
+        <div>
+          <img
+            class="gato-filhote"
+            src="./images/gato-filhote.avif"
+            alt="foto gato filhote"
+          />
         </div>
         <div id="vet">
           <div class="vet-titulo">
-          <h2>Dra. Gabriella Gesuele</h2>
-          <p>Médica Veterinária</p>
-          <p>CRMV-SP 50576</p>
-        </div>
+            <h2>Dra. Gabriella Gesuele</h2>
+            <p>Médica Veterinária</p>
+            <p>CRMV-SP 50576</p>
+          </div>
           <div>
-            <a href="https://www.instagram.com/dra.gabriellagesuele?igsh=YnJjbXJwZjdtMHVv" target="_blank">
-            <img class="logo-gabi" src="./images/logo-gabi.jpg" alt="Logo Dra. Gabriella" width="200">
+            <a
+              href="https://www.instagram.com/dra.gabriellagesuele?igsh=YnJjbXJwZjdtMHVv"
+              target="_blank"
+            >
+              <img
+                class="logo-gabi"
+                src="./images/logo-gabi.jpg"
+                alt="Logo Dra. Gabriella"
+                width="200"
+              />
             </a>
           </div>
         </div>
@@ -79,14 +112,43 @@
       <section class="contatos">
         <div id="contatos">
           <p>Fale Conosco</p>
-          <p>Cel. 11 97106-1329</p>
-          <p>E-mail: regia@gmail.com</p>
-          <p>Rua Luiz Fiorotti, 394 - Olímpico - São Caetano do Sul</p>
+          <div class="cel">
+            <img src="./images/phone-call.svg" alt="" width="15px" />
+            <p>(11) 97106-1329</p>
+          </div>
+          <div class="email">
+            <img src="./images/envelope.svg" alt="" width="15px" />
+            <p>E-mail: regia@gmail.com</p>
+          </div>
+          <div class="end">
+            <img src="./images/marker.svg" alt="" width="15px" />
+            <p>Rua Luiz Fiorotti, 394 - Olímpico - São Caetano do Sul</p>
+          </div>
         </div>
         <div>
-          <a href="https://www.instagram.com/regia_tinas_care?igsh=bm56cHZpOHE0dmEy" target="_blank">          <img class="links-redes" src="./images/icone-insta.png" alt="Icone do Instagram"></a>
-          <a href="https://www.facebook.com/regiatinascare?mibextid=LQQJ4d" target="_blank"><img class="links-redes" src="./images/icone-face.png" alt="Icone do Facebook"></a>
-          <a href="#"><img class="links-redes" src="./images/icone-whats.png" alt="Icone do Whatsapp"></a>
+          <a
+            href="https://www.instagram.com/regia_tinas_care?igsh=bm56cHZpOHE0dmEy"
+            target="_blank"
+          >
+            <img
+              class="links-redes"
+              src="./images/icone-insta.png"
+              alt="Icone do Instagram"
+          /></a>
+          <a
+            href="https://www.facebook.com/regiatinascare?mibextid=LQQJ4d"
+            target="_blank"
+            ><img
+              class="links-redes"
+              src="./images/icone-face.png"
+              alt="Icone do Facebook"
+          /></a>
+          <a href="#"
+            ><img
+              class="links-redes"
+              src="./images/icone-whats.png"
+              alt="Icone do Whatsapp"
+          /></a>
         </div>
       </section>
       <div><p class="dev">Desenvolvido por Celina Eto</p></div>
