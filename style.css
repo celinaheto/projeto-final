@@ -84,7 +84,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding: 40px;
+  padding: 20px;
 }
 
 .sobrenos-banner {
@@ -175,7 +175,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 0;
+  padding: 20px;
 }
 .gato-filhote {
   width: 160px;
@@ -242,7 +242,7 @@ p {
   padding: 7px;
 }
 
-@media screen and (max-width: 910px) {
+@media screen and (min-width: 660px) and (max-width: 910px) {
   .nav-logo {
     width: 90px;
     margin: 20px 0px 20px 60px;
@@ -317,8 +317,8 @@ p {
   }
 
   .gato-filhote {
-    width: 150px;
-    height: 120px;
+    width: 160px;
+    height: 130px;
     margin-left: 70px;
   }
 
@@ -354,6 +354,170 @@ p {
     width: 18px;
     height: 18px;
     padding: 8px;
+  }
+
+  .dev {
+    font-size: 11px;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 659px) {
+  .nav-logo {
+    width: 65px;
+    margin: 10px;
+  }
+
+  .nav-menu {
+    position: relative;
+    display: inline-block;
+    margin-right: auto;
+  }
+
+  .nav-titulo {
+    font-size: 17px;
+    padding: 10px;
+  }
+
+  .nav-links {
+    font-size: 14px;
+    display: none;
+    position: absolute;
+    background-color: rgb(246, 251, 251);
+    min-width: 160px;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+  }
+
+  .nav-links a {
+    font-family: "Roboto", sans-serif;
+    color: rgb(102, 101, 101);
+    padding: 8px 13px;
+    display: block;
+  }
+
+  .nav-links a:hover {
+    background-color: rgb(246, 251, 251);
+  }
+  .nav-menu:hover .nav-links {
+    display: block;
+  }
+  .nav-menu:hover .nav-titulo {
+    background-color: rgb(246, 251, 251);
+  }
+
+  .sobrenos {
+    flex-direction: column;
+  }
+
+  .sobrenos-banner {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  #sobrenos {
+    width: auto;
+    font-size: 12px;
+  }
+
+  .servicos-titulo {
+    font-size: 20px;
+  }
+
+  .servicos-lista {
+    flex-wrap: wrap;
+    font-size: 12px;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .servicos-lista li {
+    width: 56px;
+    height: 56px;
+    flex: 0 1 auto;
+    padding: 5px;
+  }
+
+  #agenda {
+    flex-direction: column-reverse;
+    gap: 50px;
+    padding: 20px 0px;
+  }
+
+  .dog-gato-banho {
+    width: 190px;
+    height: 130px;
+  }
+
+  .agenda-titulo {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .agenda-inputs {
+    font-size: 12px;
+  }
+
+  .btn-enviar {
+    font-size: 13px;
+    margin-top: 7px;
+  }
+
+  .vet {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .gato-filhote {
+    width: 160px;
+    height: 130px;
+    border-radius: 20px;
+    margin: auto;
+  }
+
+  #vet {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .vet-info {
+    width: 180px;
+  }
+
+  .vet-dra {
+    font-size: 18px;
+  }
+
+  .logo-gabi {
+    width: 160px;
+    height: 130px;
+  }
+
+  .contatos {
+    height: 80px;
+    padding: 10px 10px;
+  }
+
+  p {
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .links-redes {
+    width: 14px;
+    height: 14px;
+    padding: 3px;
   }
 
   .dev {
