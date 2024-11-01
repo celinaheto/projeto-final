@@ -165,6 +165,7 @@ h2 {
   border-radius: 4px;
   border: 1px solid rgb(82, 81, 81);
   color: rgb(82, 81, 81);
+  -webkit-tap-highlight-color: transparent;
 }
 .dog-gato-banho {
   width: 240px;
