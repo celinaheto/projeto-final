@@ -290,10 +290,9 @@ p {
   .servicos-lista {
     flex-wrap: wrap;
     font-size: 14px;
-    padding: 10px 20px;
-    margin: 10px 100px;
+    margin: 10px 50px;
     justify-content: center;
-    gap: 30px;
+    gap: 25px;
   }
 
   .servicos-lista li {
@@ -349,7 +348,7 @@ p {
 
   .contatos {
     height: 90px;
-    padding: 10px 20px;
+    padding: 10px 30px;
   }
 
   p {
@@ -373,6 +372,7 @@ p {
   .nav-logo {
     width: 65px;
     margin: auto;
+    padding: 5px;
   }
 
   .nav-menu {
@@ -383,7 +383,11 @@ p {
 
   .nav-titulo {
     font-size: 15px;
-    padding: 5px;
+    white-space: inherit;
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
   }
 
   .nav-links {
@@ -418,6 +422,7 @@ p {
 
   .sobrenos {
     flex-direction: column;
+    padding: 20px 0px;
   }
 
   .sobrenos-banner {
@@ -426,8 +431,8 @@ p {
   }
 
   #sobrenos {
-    width: auto;
     font-size: 13px;
+    width: 80%;
   }
 
   #servicos {
@@ -442,9 +447,9 @@ p {
   .servicos-lista {
     flex-wrap: wrap;
     font-size: 12px;
-    margin: auto;
     justify-content: center;
     gap: 15px;
+    margin: 10px 20px;
   }
 
   .servicos-lista li {
@@ -462,15 +467,21 @@ p {
   .dog-gato-banho {
     width: 190px;
     height: 130px;
+    margin-bottom: 10px;
   }
 
   .agenda-titulo {
     font-size: 18px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
+
   .agenda-inputs {
     font-size: 13px;
     padding: 3px;
+  }
+
+  .input {
+    width: 250px;
   }
 
   .btn-enviar {
@@ -494,7 +505,7 @@ p {
 
   #vet {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     margin: auto;
   }
@@ -509,8 +520,8 @@ p {
   }
 
   .contatos {
-    height: 100px;
-    padding: 10px 10px;
+    height: 85px;
+    padding: 10px 15px;
   }
 
   p {
